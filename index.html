@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio — Aryane Bueno</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <main class="frame">
+    <header class="mb-6">
+      <h1 class="display-font text-5xl text-white">Aryane Bueno</h1>
+      <p class="mt-2 text-sm opacity-80">Arista• Estudante de Informática</p>
+    </header>
+
+    <section class="intro">
+      <img src="img/eu.jpeg" alt="Aryane dançando" class="main-photo">
+      <p class="mt-4 text-sm">
+        Olá! Sou Aryane, estudante do IFMS apaixonada por arte, tecnologia e movimento.
+        Aqui você encontra um pouco das minhas criações e estudos.
+      </p>
+    </section>
+
+    <footer class="mt-8 text-xs opacity-70">
+      © <span id="year"></span> Aryane Bueno
+    </footer>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

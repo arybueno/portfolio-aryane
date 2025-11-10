@@ -1,0 +1,30 @@
+:root {
+  --green-900: #1e3932;
+  --muted-beige: #e8e3d7;
+}
+
+body {
+  background: var(--muted-beige);
+  font-family: "Inter", sans-serif;
+  padding: 2rem;
+}
+
+.frame {
+  background: var(--green-900);
+  color: #f2efe8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.display-font {
+  font-family: "Playfair Display", serif;
+}
+
+.main-photo {
+  border-radius: 12px;
+  width: 100%;
+  height: auto;
+  margin-top: 1rem;
+}
